@@ -1,0 +1,80 @@
+{
+  "result": "SUCCESS",
+  "dataList": {
+    "checkItem": [
+      {
+        "id": 10002272,
+        "createDate": 1556186589000,
+        "catalogId": 100009,
+        "createBy": 62,
+        "dataJson": "[{\"name\":\"是\",\"isOk\":\"是\",\"isChecked\":\"否\"},{\"name\":\"否\",\"isOk\":\"否\",\"isChecked\":\"否\"}]",
+        "defaultValue": null,
+        "inputJson": null,
+        "isMultiline": "是",
+        "isMust": "是",
+        "isScore": "否",
+        "itemType": "选择",
+        "name": "武器入库",
+        "orderNo": 0,
+        "orgCode": "1*4",
+        "pictureJson": "[{\"isMust\":\"否\",\"name\":\"入库记录照片\"}]",
+        "remark": "",
+        "isDelete": false,
+        "pOrderNo": 0,
+        "pointItemId": 0,
+        "classifyNames": null,
+        "classifyIds": "33"
+      },
+      {
+        "id": 10002273,
+        "createDate": 1556189557000,
+        "catalogId": 100009,
+        "createBy": 62,
+        "dataJson": "{\"OkScore\":0,\"NoScore\":0,\"ValidUp\":10,\"ValidDown\":1,\"OkUp\":6,\"OkDown\":3,\"CheckValidUp\":true,\"CheckValidDown\":true,\"CheckOkUp\":true,\"CheckOkDown\":true,\"Precision\":0}",
+        "defaultValue": "",
+        "inputJson": null,
+        "isMultiline": "是",
+        "isMust": "是",
+        "isScore": "是",
+        "itemType": "数字",
+        "name": "警卫人数",
+        "orderNo": 0,
+        "orgCode": "1*4",
+        "pictureJson": "[{\"name\":\"执勤表照片\",\"orderNo\":0}]",
+        "remark": "",
+        "isDelete": false,
+        "pOrderNo": 0,
+        "pointItemId": 0,
+        "classifyNames": null,
+        "classifyIds": "32"
+      }
+    ],
+    "class": [
+      {
+        "orderNo": 0,
+        "pointId": 1161,
+        "name": "A",
+        "id": 32
+      },
+      {
+        "orderNo": 1,
+        "pointId": 1161,
+        "name": "B",
+        "id": 33
+      }
+    ],
+    "planTask": {
+      "shotMinNumber": 0,
+      "routeId": 112,
+      "pointName": "检查点333",
+      "planName": "123456",
+      "beginTime": 1556193600000,
+      "endTime": 1556194200000,
+      "planTaskDetailId": 17024,
+      "shotMaxNumber": 10,
+      "pointNo": "000087"
+    }
+  },
+  "message": null,
+  "success": true
+}

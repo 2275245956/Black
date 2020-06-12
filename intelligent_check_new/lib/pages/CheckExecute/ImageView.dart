@@ -1,0 +1,38 @@
+import 'package:flutter/material.dart';
+import 'package:intelligent_check_new/tools/GetConfig.dart';
+
+class ImageView extends StatefulWidget{
+
+  final Image file;
+  ImageView(this.file);
+
+  @override
+  State<StatefulWidget> createState() {
+    return _ImageViewState();
+  }
+}
+
+class _ImageViewState extends State<ImageView>{
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("图片浏览",style: TextStyle(color: Colors.black,fontSize: 19),),
+        centerTitle: true,
+        elevation: 0.7,
+        brightness: Brightness.light,
+        backgroundColor:  Colors.white,
+        leading:new Container(
+          child: GestureDetector(
+            onTap: (){Navigator.pop(context);},
+            child:Icon(Icons.keyboard_arrow_left, color: GetConfig.getColor("blue"), size: 32),
+          ),
+        ),
+      ),
+      body: Container(
+        child: this.widget.file,
+        alignment: Alignment.center,
+      )
+    );
+  }
+}

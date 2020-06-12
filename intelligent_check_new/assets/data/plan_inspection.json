@@ -1,0 +1,32 @@
+{
+"result": "SUCCESS",
+"dataList": {
+"planTask": {
+"taskPlanNum": 2,
+"OrgCode": "1*4-2",
+"finishStatus": 3,
+"batchNo": 0,
+"finshNum": 2,
+"inOrder": "0",
+"planTaskId": 377,
+"taskName": "测试计划",
+"beginTime": "2019-04-08 13:00:00",
+"endTime": "2019-04-08 14:00:00",
+"checkDate": "2019-04-08",
+"userId": 19,
+"omission": 1,
+"unqualified": 1,
+"unplan": 1
+},
+"points": [{
+"offline": true,
+"name": "冷冻室",
+"isFixed": "1",
+"pointNO": "kele_1013",
+"pointId": 1,
+"status": 1
+}]
+},
+"message": null,
+"success": true
+}

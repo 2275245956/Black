@@ -1,0 +1,342 @@
+name: intelligent_check_new
+description: intelligent check
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  #  定位
+  amap_location_fluttify: ^0.4.0+82a2243
+  permission_handler: 4.0.0
+  intro_slider: ^1.1.2
+
+  shared_preferences: any
+
+  modal_progress_hud: ^0.1.2
+
+  badges: ^0.0.6
+
+  flutter_screenutil: ^0.4.2
+
+  dropdown_menu: ^1.1.1
+
+  charts_flutter: ^0.6.0
+
+  flutter_datetime_picker: 1.0.7
+
+  flutter_calendar_carousel: ^1.3.15+4
+
+#  qr_mobile_vision: ^0.2.2
+
+  fluttertoast: 3.0.3
+
+  #flutter_nfc_reader: ^0.0.23
+
+  #image_picker: ^0.5.3
+  image_picker: ^0.6.0+9
+
+  date_utils: ^0.1.0+2
+
+  flutter_custom_bottom_tab_bar:
+    git: https://github.com/LiuC520/flutter_custom_bottom_tab_bar.git
+
+#  permission_handler: ^3.0.0
+
+  # 网络请求
+  dio: ^1.0.14
+
+  tripledes: ^2.1.0
+
+  flutter_badge: ^0.0.1
+
+  timeline_flow: ^0.0.5
+
+  flutter_nfc_tools:
+    git: https://github.com/jloupdef/flutter-nfc-tools.git
+
+  flutter_easyrefresh: ^1.2.6
+
+#  last_qr_scanner: ^0.0.6
+
+  sqflite: ^1.1.0
+
+  flutter_circular_chart: ^0.1.0
+
+  td_password_encode_plugin:
+    git: https://github.com/luur2016/password_encode_plugin.git
+
+  package_info: ^0.4.0+2
+
+
+  path_provider: ^0.4.1
+
+#  flutter_image_compress: ^0.5.2
+  flutter_image_compress: ^0.6.3
+
+#  permission_handler: ^2.1.3
+
+  jpush_flutter: 0.0.11
+
+  flutter_local_notifications: ^0.5.2
+
+  #  scoped_model:
+  flutter_downloader: 1.1.6
+
+  open_file: 2.0.1+1
+
+  flukit: 1.0.0
+
+  video_player: 0.8.0
+
+  uuid: 2.0.1
+
+  flutter_qr_reader: ^1.0.2
+
+  photo_view: ^0.3.3
+  zoomable_image: ^1.2.0
+
+  webview_flutter: ^0.3.15+1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_luban: ^0.1.1
+
+
+
+  chewie: 0.9.0
+  flutter_swiper: 1.1.6
+
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #  - images/a_dot_burr.jpeg
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
+  assets:
+    - assets/images/flutter.png
+    - assets/images/powered_by.png
+    - assets/images/icon_list.png
+    - assets/images/scene1.png
+    - assets/images/scene2.png
+    - assets/images/scene3.png
+    - assets/images/scene4.png
+    - assets/images/scene5.png
+    - assets/images/scene6.png
+    ######登录############################################
+    - assets/images/logo_red.png
+    - assets/images/logo_blue.png
+    - assets/images/login/password_red.png
+    - assets/images/login/password_blue.png
+    - assets/images/login/display_password_red.png
+    - assets/images/login/display_password_blue.png
+    - assets/images/login/hide_password.png
+    - assets/images/login/username_red.png
+    - assets/images/login/username_blue.png
+    - assets/images/login/system_setting_red.png
+    - assets/images/login/system_setting_blue.png
+    - assets/images/login/backup.png
+  ######主页#############################################
+    - assets/images/icons/taskaddition.png
+    - assets/images/home/plan_inspection_blue.png
+    - assets/images/home/plan_inspection_red.png
+    - assets/images/home/no_plan_red.png
+    - assets/images/home/no_plan_blue.png
+    - assets/images/home/move_inspection_blue.png
+    - assets/images/home/move_inspection_red.png
+    - assets/images/home/inspection_record_blue.png
+    - assets/images/home/inspection_record_red.png
+    - assets/images/home/inspection_point_blue.png
+    - assets/images/home/inspection_point_red.png
+    - assets/images/home/inspection_calendar_blue.png
+    - assets/images/home/inspection_calendar_red.png
+    - assets/images/home/my_receive_blue.png
+    - assets/images/home/my_receive_red.png
+    - assets/images/home/my_send_red.png
+    - assets/images/home/my_send_blue.png
+    - assets/images/home/add_task_blue.png
+    - assets/images/home/add_task_red.png
+    - assets/images/home/all_task_red.png
+    - assets/images/home/all_task_blue.png
+    - assets/images/home/workspace.png
+    - assets/images/home/home_tab_workspace_red.png
+    - assets/images/home/home_tab_workspace_blue.png
+    - assets/images/home/un_home_tab_workspace.png
+    - assets/images/home/un_home_statistic.png
+    - assets/images/home/home_statistic_red.png
+    - assets/images/home/home_statistic_blue.png
+    - assets/images/home/un_home_my.png
+    - assets/images/home/home_my_red.png
+    - assets/images/home/home_my_blue.png
+  ######我的#############################################
+    - assets/images/icons/versioninfo.png
+    - assets/images/icons/changepswd.png
+    - assets/images/icons/subscribe.png
+    - assets/images/icons/list.png
+    - assets/images/icons/offlinemode.png
+    - assets/images/icons/clearcache.png
+    - assets/images/icons/head.png
+    - assets/images/icons/righticon.png
+    - assets/images/icons/wait.png
+    - assets/images/icons/complete.png
+    - assets/images/icons/fail.png
+    - assets/images/my/clean_red.png
+    - assets/images/my/clean_blue.png
+    - assets/images/my/contact_red.png
+    - assets/images/my/contact_blue.png
+    - assets/images/my/message_red.png
+    - assets/images/my/message_blue.png
+    - assets/images/my/modify_password_red.png
+    - assets/images/my/modify_password_blue.png
+    - assets/images/my/offline_red.png
+    - assets/images/my/offline_blue.png
+    - assets/images/my/version_red.png
+    - assets/images/my/version_blue.png
+
+  ######闪屏#############################################
+#    - assets/images/SplashScreen.png
+#    - assets/images/splash_new.png
+    - assets/images/colo.png
+    - assets/images/splash_red.png
+    - assets/images/splash_blue.png
+
+    - assets/images/icons/scan.png
+
+    ######巡检执行#############################################
+    - assets/images/checkexec/inspection_red.png
+    - assets/images/checkexec/inspection_blue.png
+    - assets/images/checkexec/un_inspection.png
+    - assets/images/checkexec/record_red.png
+    - assets/images/checkexec/record_blue.png
+    - assets/images/checkexec/un_record.png
+    - assets/images/checkexec/detail_red.png
+    - assets/images/checkexec/detail_blue.png
+    - assets/images/checkexec/un_detail.png
+    ######无计划巡检################################################
+    - assets/images/noplan/nfc_m.png
+    - assets/images/noplan/scan_blue.png
+    - assets/images/noplan/scan_red.png
+    - assets/images/noplan/no_plan_input.png
+    - assets/images/noplan/no_plan_qr.png
+    - assets/images/noplan/no_plan_nfc.png
+    - assets/images/noplan/no_plan_torch.png
+
+    ######巡检记录################################################
+    - assets/images/icons/calendar_red.png
+    - assets/images/icons/calendar_blue.png
+    - assets/images/filter_red.png
+    - assets/images/filter_blue.png
+    - assets/images/calendar/calendar_change_red.png
+    - assets/images/calendar/calendar_change_blue.png
+
+    ######统计################################################
+    - assets/images/statistics/statistics_red.png
+    - assets/images/statistics/statistics_blue.png
+  #####################################################################
+    - assets/data/xunjian.json
+    - assets/data/plan_inspection.json
+
+  #######################################################################
+    - assets/images/message/check_red.png
+    - assets/images/message/check_blue.png
+    - assets/images/message/planBegin_red.png
+    - assets/images/message/planBegin_blue.png
+    - assets/images/message/planEnd_red.png
+    - assets/images/message/planEnd_blue.png
+    - assets/images/message/planWarn_red.png
+    - assets/images/message/planWarn_blue.png
+    - assets/images/message/task_red.png
+    - assets/images/message/task_blue.png
+    - assets/images/search_red.png
+    - assets/images/search_blue.png
+
+    - assets/images/icons/menu_add_red.png
+    - assets/images/icons/menu_add_blue.png
+    - assets/images/icons/message.png
+    - assets/images/icons/camera_red.png
+    - assets/images/icons/camera_blue.png
+    - assets/images/icons/save_red.png
+    - assets/images/icons/save_blue.png
+    #20190808 交大版本
+    - assets/images/jiaoda/渭化集团@3x.png
+    - assets/images/delete_blue.png
+    - assets/images/delete_red.png
+    - assets/images/jiaoda/wait_do_blue.png
+    - assets/images/jiaoda/wait_do_red.png
+    - assets/images/jiaoda/do_over_red.png
+    - assets/images/jiaoda/do_over_blue.png
+    - assets/images/jiaoda/generalwork_blue.png
+    - assets/images/jiaoda/generalwork_red.png
+    - assets/images/jiaoda/safe_danger_judgement_red.png
+    - assets/images/jiaoda/safe_danger_judgement_blue.png
+    - assets/images/jiaoda/jiaodaLog.png
+    - assets/images/jiaoda/pendToreview.png
+    - assets/images/jiaoda/pendToreform.png
+    - assets/images/jiaoda/pendTocheck.png
+    - assets/images/jiaoda/hasCheck.png
+    - assets/images/jiaoda/hasRecinded.png
+    - assets/images/jiaoda/waitPlan.png
+   #安全风险研判
+    - assets/images/securityRiskJudegment/safe_risk_01.png
+    - assets/images/securityRiskJudegment/safe_risk_02.png
+    - assets/images/securityRiskJudegment/pieChart_dangerPoint.png
+    - assets/images/securityRiskJudegment/pieChart_activility.png
+    - assets/images/securityRiskJudegment/pieChart_danger.png
+    - assets/images/securityRiskJudegment/pieChart_judge.png
+    - assets/images/videoPic.png
+
